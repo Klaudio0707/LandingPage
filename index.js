@@ -3,7 +3,7 @@ let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 
 let count = list.length;
-let active = 0;
+let active = 2;
 
 next.onclick = () => {
 let activeOld = document.querySelector(".active");
